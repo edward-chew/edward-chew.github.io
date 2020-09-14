@@ -120,19 +120,21 @@
   <!-- Rellax for parallax effect -->
   <script src="Javascript/rellax.min.js"></script>
   <script>
-    /*var rellax = new Rellax('.rellax');*/
-    var rellax1 = new Rellax('.rellax1', {
-      wrapper: '.intro',
-      relativeToWrapper: true
-    });
-    var rellax2 = new Rellax('.rellax2', {
-      wrapper: '.mini',
-      relativeToWrapper: true
-    });
-    var rellax3 = new Rellax('.rellax3', {
-      wrapper: '.experience',
-      relativeToWrapper: true
-    });
+    window.onload = function(){
+      /*var rellax = new Rellax('.rellax');*/
+      var rellax1 = new Rellax('.rellax1', {
+        wrapper: '.intro',
+        relativeToWrapper: true
+      });
+      var rellax2 = new Rellax('.rellax2', {
+        wrapper: '.mini',
+        relativeToWrapper: true
+      });
+      var rellax3 = new Rellax('.rellax3', {
+        wrapper: '.experience',
+        relativeToWrapper: true
+      });
+    }
   </script>
 </body>
 
