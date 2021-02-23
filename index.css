@@ -33,7 +33,7 @@
 .work {
   margin: 300px 0px 250px 0px;
 }
-.work > * {
+.work a > * {
   position: relative;
   margin: 120px 0px;
   display: flex;
