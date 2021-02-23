@@ -170,7 +170,7 @@ footer h1 {
   position: absolute;
   left: -16.5%;
   z-index: -5;
-  width: 100%;
+  width: 100vw;
 }
 .rellax1 {
   top: -30%;

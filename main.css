@@ -63,8 +63,8 @@ p {
   text-decoration: underline;
 }
 .link:hover {
-  color: var(--black);
   text-decoration: underline;
+  color: var(--black);
 }
 .link img {
   transition: all 0.5s;
