@@ -38,6 +38,9 @@
   margin: 120px 0px;
   display: flex;
 }
+.work a:hover {
+  text-decoration: none;
+}
 .work .left {
   position: relative;
   flex: 4;
@@ -128,6 +131,9 @@
 }
 .mini p {
   font-weight: 600;
+}
+.mini a:hover {
+  text-decoration: none;
 }
 
 /*
