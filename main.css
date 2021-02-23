@@ -26,15 +26,7 @@ a {
   color: var(--black);
   font-weight: 500;
   font-size: 24px;
-}
-a:hover {
-  color: var(--black);
-}
-a img {
-  transition: all 0.5s;
-}
-a:hover img{
-  transform: translateX(10px);
+  text-decoration: none;
 }
 h1 {
   color: var(--black);
@@ -69,6 +61,15 @@ p {
 }
 .link {
   text-decoration: underline;
+}
+.link:hover {
+  color: var(--black);
+}
+.link img {
+  transition: all 0.5s;
+}
+.link:hover > img{
+  transform: translateX(10px);
 }
 
 /*
