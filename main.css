@@ -25,33 +25,33 @@ body {
 }
 a {
   color: var(--black);
-  font-size: 24px;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 h1 {
   color: var(--black);
-  font-size: 54px;
+  font-size: 3.375rem;
   font-weight: 600;
 }
 h2 {
   color: var(--black);
-  font-size: 32px;
+  font-size: 2rem;
 }
 h3 {
   color: var(--gray);
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 h4 {
   color: var(--gray);
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 h5 {
   color: var(--gray);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 p {
   color: var(--black);
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .bold {
   font-weight: 700;
@@ -107,7 +107,7 @@ nav a:hover {
 }
 .nav-right a {
   margin-left: 50px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
