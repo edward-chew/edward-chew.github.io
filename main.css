@@ -52,6 +52,15 @@ p {
   color: var(--black);
   font-size: 24px;
 }
+.bold {
+  font-weight: 900;
+}
+.demi {
+  font-weight: 600;
+}
+.italic {
+  font-style: italic;
+}
 .arrow-link {
   display: inline-block;
   height: 20px;
