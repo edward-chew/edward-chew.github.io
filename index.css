@@ -44,16 +44,11 @@
 .work .left img {
   width: 100%;
   border-radius: 30px;
+  transition: all 0.5s;
 }
 .work .left img:hover {
   transform: translate(-15px, -15px);
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
-}
-.work .right {
-  /* Vertically center contents in right2 div */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .work .right p {
   margin-top: 10px;
