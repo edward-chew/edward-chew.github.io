@@ -8,7 +8,7 @@
   font-size: 100%;
   outline: 0;
   vertical-align: baseline;
-  font-family: Avenir, 'Proxima Nova', sans-serif;
+  font-family: 'Avenir Next', 'Proxima Nova', sans-serif;
 }
 :root {
   --black: #1a1a1a;
@@ -54,7 +54,7 @@ p {
   font-size: 1.5rem;
 }
 .bold {
-  font-weight: 800;
+  font-weight: 700;
 }
 .demi {
   font-weight: 600;
@@ -95,6 +95,8 @@ nav a {
 }
 nav a:hover {
   text-decoration: none;
+  color: var(--black);
+  opacity: 0.6;
 }
 .nav-right a:hover {
   font-size: 20px;
@@ -108,6 +110,6 @@ nav a:hover {
 .nav-right a {
   margin-left: 50px;
   font-size: 1.125rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
