@@ -59,16 +59,19 @@
 .work .right h4 {
   margin-top: 60px;
 }
-.work .right p {
+.work .right h2 {
   margin-top: 10px;
 }
-.work .right:hover .arrow-link{
-  transform: translateX(10px);
+.work .right p {
+  margin-top: 10px;
 }
 .work .right .arrow-link {
   position: absolute;
   right: 50px;
   transition: all 0.5s;
+}
+.work a:hover .right img {
+  transform: translateX(10px);
 }
 
 /* 
