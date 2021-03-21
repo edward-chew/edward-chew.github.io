@@ -7,19 +7,14 @@
   display: flex;
 }
 .intro .left {
-  position: relative;
-  flex: 3;
   padding-right: 50px;
 }
 .intro h1 {
   margin-top: 15%;
 }
 .intro h2 {
+  line-height: 1.4;
   margin: 30px 0px;
-}
-.intro .right {
-  position: relative;
-  flex: 2;
 }
 .intro .right img {
   width: 100%;
