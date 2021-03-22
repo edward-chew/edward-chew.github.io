@@ -9,10 +9,7 @@
   <title>About Me</title>
   
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
 
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="about.css">
@@ -29,9 +26,11 @@
     </div>
   </nav>
 
+  <div class="rellax lines1" data-rellax-speed="-3"><img src="Images/Curve4.svg" alt="Background Curve"></div> <!-- Background Lines 1 -->
+  <div class="rellax lines2" data-rellax-speed="-3"><img src="Images/Curve5.svg" alt="Background Curve"></div> <!-- Background Lines 2 -->
+
   <div id="content-wrapper">
     <section class="summary">
-      <div class="rellax1" data-rellax-speed="-3"><img src="Images/Curve4.svg" alt="Background Curve"></div> <!-- Background Lines 1 -->
       <div class="row">
         <div class="left col-md-5">
           <img src="Images/Edward2.JPG" alt="Photo of me!">
@@ -55,7 +54,7 @@
             <div class="item col-md-6">  <!-- Item -->
               <div class="front-rectangle"></div>
               <div class="back-rectangle"></div>
-              <p><b>HackDavis,</b><br> my first ever <br>hackathon</p>
+              <p><b class="bold">HackDavis,</b><br> my first ever <br>hackathon</p>
             </div>
           </div>
           <div class="col-md-12 row no-gutters flex-nowrap"> <!-- Row of 2 -->
@@ -73,7 +72,7 @@
             <div class="item col-md-6"> <!-- Item -->
               <div class="front-rectangle"></div>
               <div class="back-rectangle"></div>
-              <p><b>Maple,</b><br> my dog back <br>at home</p>
+              <p><b class="bold">Maple,</b><br> my dog back <br>at home</p>
             </div>
           </div>
         </div>
@@ -82,15 +81,14 @@
 
     <section class="experience">
       <h1>Experience and involvement:</h1>
-      <p class="position"><b>CodeLab</b> / VP of External, Developer</p>
+      <p class="position"><b class="demi">CodeLab</b> / VP of External, Developer</p>
       <p class="years">Oct 2020 - Present</p>
-      <p class="position"><b>Komma</b> / Software Developer</p>
+      <p class="position"><b class="demi">Komma</b> / Software Developer</p>
       <p class="years">Sep 2020 - Present</p>
-      <p class="position"><b>Computational Communication Lab at UC Davis</b> / Research Assistant</p>
+      <p class="position"><b class="demi">Computational Communication Lab at UC Davis</b> / Research Assistant</p>
       <p class="years">Mar 2020 - Present</p>
-      <p class="position"><b>Design Interactive</b> / Design Associate</p>
+      <p class="position"><b class="demi">Design Interactive</b> / Design Associate</p>
       <p class="years">Apr 2020 - May 2020</p>
-      <div class="rellax2" data-rellax-speed="-3"><img src="Images/Curve5.svg" alt="Background Curve"></div> <!-- Background Lines 2 -->
     </section>
 
     <footer>
@@ -105,14 +103,8 @@
   <script src="Javascript/rellax.min.js"></script>
   <script>
     window.onload = function(){
-      /*var rellax = new Rellax('.rellax');*/
-      var rellax1 = new Rellax('.rellax1', {
-        wrapper: '.summary',
-        relativeToWrapper: true
-      });
-      var rellax2 = new Rellax('.rellax2', {
-        wrapper: '.experience',
-        relativeToWrapper: true
+      var rellax = new Rellax('.rellax', {
+        center: true
       });
     }
   </script>

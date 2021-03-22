@@ -26,9 +26,12 @@
     </div>
   </nav>
 
+  <div class="rellax lines1" data-rellax-speed="-3"><img src="Images/Curve1.svg" alt="Background Curve"></div> <!-- Background Lines 1 -->
+  <div class="rellax lines2" data-rellax-speed="-3"><img src="Images/Curve2.svg" alt="Background Curve"></div> <!-- Background Lines 2 -->
+  <div class="rellax lines3" data-rellax-speed="-3"><img src="Images/Curve3.svg" alt="Background Curve"></div> <!-- Background Lines 3 -->
+
   <div id="content-wrapper">
     <section class="intro">
-      <div class="rellax1" data-rellax-speed="-3"><img src="Images/Curve1.svg" alt="Background Curve"></div> <!-- Background Lines 1 -->
       <div class="row">
         <div class="left col-md-7">
           <h1>Hey there!</h1>
@@ -75,7 +78,6 @@
     </section>
 
     <section class="mini">
-      <div class="rellax2" data-rellax-speed="-3"><img src="Images/Curve2.svg" alt="Background Curve"></div> <!-- Background Lines 2 -->
       <h1>And some doodles and mini projects:</h1>
       <div class="row">
         <div class="col-md-6">
@@ -121,7 +123,6 @@
       <p class="position"><b class="demi">Design Interactive</b> / Design Associate</p>
       <p class="years">Apr 2020 - May 2020</p>
       <a class="link" href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing" target="_blank">View Full Resume<img class="arrow-link" src="Images/Arrow.svg" alt="arrow"></a>
-      <div class="rellax3" data-rellax-speed="-3"><img src="Images/Curve3.svg" alt="Background Curve"></div> <!-- Background Lines 3 -->
     </section>
 
     <footer>
@@ -136,18 +137,8 @@
   <script src="Javascript/rellax.min.js"></script>
   <script>
     window.onload = function(){
-      /*var rellax = new Rellax('.rellax');*/
-      var rellax1 = new Rellax('.rellax1', {
-        wrapper: '.intro',
-        relativeToWrapper: true
-      });
-      var rellax2 = new Rellax('.rellax2', {
-        wrapper: '.mini',
-        relativeToWrapper: true
-      });
-      var rellax3 = new Rellax('.rellax3', {
-        wrapper: '.experience',
-        relativeToWrapper: true
+      var rellax = new Rellax('.rellax', {
+        center: true
       });
     }
   </script>

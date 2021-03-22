@@ -136,21 +136,24 @@ footer h1 {
 /*
   Background Details
 */
-.rellax1, .rellax2, .rellax3 {
+.rellax {
   position: absolute;
-  left: -16.5%;
-  z-index: -5;
   width: 100vw;
 }
-.rellax1 {
-  top: -30%;
+.rellax img{
+  width: 100%;
 }
-.rellax2 {
-  top: 0%;
+.lines1 {
+  top: 100px;
 }
-.rellax3 {
-  top: -30%;
+.lines2 {
+  top: 2500px;
 }
-.rellax1 img, .rellax2 img, .rellax3 img {
-  width: 100vw;
+.lines3 {
+  top: 3900px;
+}
+@media (max-width: 720px) {
+  .rellax {
+    display: none;
+  }
 }

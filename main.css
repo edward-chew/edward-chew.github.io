@@ -21,7 +21,20 @@ body {
   font-weight: 500;
 }
 #content-wrapper {
-  margin: auto 12%; /* Media Query? */
+  width: 1140px;
+  margin: auto;
+}
+@media (max-width: 1140px) {
+  #content-wrapper { 
+    width: auto;
+    margin: auto 12%; 
+  }
+}
+@media (max-width: 720px) {
+  #content-wrapper { 
+    width: auto;
+    margin: auto 5%; 
+  }
 }
 a {
   color: var(--black);
@@ -54,7 +67,6 @@ p {
   font-size: 1.5rem;
 }
 @media (max-width: 720px) {
-  #content-wrapper { margin: auto 5%; }
   a { font-size: 1rem; }
   h1 { font-size: 2.2rem; }
   h2 { font-size: 1.3rem; }
