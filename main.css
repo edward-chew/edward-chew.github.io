@@ -38,43 +38,51 @@ body {
 }
 a {
   color: var(--black);
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em);
   text-decoration: none;
 }
 h1 {
   color: var(--black);
-  font-size: 3.375rem;
+  /* font-size: 3.375rem; */
+  font-size: clamp(2.2em, calc(400 / 1800 * 100vw), 3.375em);
   font-weight: 600;
 }
 h2 {
   color: var(--black);
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: clamp(1.3em, calc(400 / 1800 * 100vw), 2em);
 }
 h3 {
   color: var(--gray);
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em);
 }
 h4 {
   color: var(--gray);
-  font-size: 1.125rem;
+  /* font-size: 1.125rem; */
+  font-size: clamp(0.75em, calc(400 / 1800 * 100vw), 1.125em);
 }
 h5 {
   color: var(--gray);
-  font-size: 0.875rem;
+  /* font-size: 0.875rem; */
+  font-size: clamp(0.6em, calc(400 / 1800 * 100vw), 0.875em);
 }
 p {
   color: var(--black);
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em);
 }
-@media (max-width: 720px) {
-  a { font-size: 1rem; }
-  h1 { font-size: 2.2rem; }
-  h2 { font-size: 1.3rem; }
-  h3 { font-size: 1rem; }
-  h4 { font-size: 0.75rem; }
-  h5 { font-size: 0.6rem; }
-  p { font-size: 1rem; }
-}
+/* @media (max-size: 10000px) {
+  a { font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em); }
+  h1 { font-size: clamp(2.2em, calc(400 / 1800 * 100vw), 3.375em); }
+  h2 { font-size: clamp(1.3em, calc(400 / 1800 * 100vw), 2em); }
+  h3 { font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em); }
+  h4 { font-size: clamp(0.75em, calc(400 / 1800 * 100vw), 1.125em); }
+  h5 { font-size: clamp(0.6em, calc(400 / 1800 * 100vw), 0.875em); }
+  p { font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em); }
+} */
+
 .bold {
   font-weight: 700;
 }

@@ -101,6 +101,7 @@ footer h1 {
 .rellax {
   position: absolute;
   z-index: -5;
+  width: 100vw;
 }
 .rellax img {
   width: 100%;
