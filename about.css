@@ -7,7 +7,7 @@
 }
 .summary .left img {
   width: 100%;
-  border-radius: 30px;
+  border-radius: 20px;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
 }
 .summary .right {
@@ -38,7 +38,7 @@
 }
 .snapshots img {
   width: 100%;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 .snapshots p{
   position: absolute;
@@ -54,7 +54,7 @@
   height: 86%;
   right: 7%;
   border: var(--red) solid 3px;
-  border-radius: 30px;
+  border-radius: 20px;
   background: linear-gradient(236.03deg, #FFB7A7 15.77%, #FFECBC 80.92%);
 }
 .snapshots .back-rectangle {
@@ -65,7 +65,7 @@
   right: 3%;
   bottom: 3%;
   border: var(--red) solid 3px;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 /*

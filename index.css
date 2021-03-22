@@ -18,7 +18,7 @@
 }
 .intro .right img {
   width: 100%;
-  border-radius: 30px;
+  border-radius: 20px;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
 }
 
@@ -31,7 +31,6 @@
 .work a > * {
   position: relative;
   margin: 90px 0px;
-  /* display: flex; */
 }
 .work a:hover {
   text-decoration: none;
@@ -41,7 +40,7 @@
 }
 .work .left img {
   width: 100%;
-  border-radius: 30px;
+  border-radius: 20px;
   transition: all 0.5s;
 }
 .work a:hover .left img {
@@ -68,8 +67,8 @@
 .work .right {
   transition: all 0.5s;
 }
-.work a:hover .right {
-  /* opacity: 0.6; */
+.work a:hover .right .arrow-link {
+  opacity: 0.4;
 }
 
 /* 
@@ -88,7 +87,7 @@
 }
 .mini img {
   width: 100%;
-  border-radius: 30px;
+  border-radius: 20px;
   transition: all 0.5s;
 }
 /* Animate images on hover */
@@ -151,7 +150,7 @@ footer h1 {
   top: 2500px;
 }
 .lines3 {
-  top: 3900px;
+  top: 4000px;
 }
 @media (max-width: 720px) {
   .rellax {

@@ -38,51 +38,34 @@ body {
 }
 a {
   color: var(--black);
-  /* font-size: 1.5rem; */
-  font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em);
+  font-size: clamp(1rem, 0.7692rem + 1.0256vw, 1.5rem);
   text-decoration: none;
 }
 h1 {
   color: var(--black);
-  /* font-size: 3.375rem; */
-  font-size: clamp(2.2em, calc(400 / 1800 * 100vw), 3.375em);
+  font-size: clamp(2.2rem, 1.6577rem + 2.4103vw, 3.375rem);
   font-weight: 600;
 }
 h2 {
   color: var(--black);
-  /* font-size: 2rem; */
-  font-size: clamp(1.3em, calc(400 / 1800 * 100vw), 2em);
+  font-size: clamp(1.3rem, 0.9769rem + 1.4359vw, 2rem);
 }
 h3 {
   color: var(--gray);
-  /* font-size: 1.5rem; */
-  font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em);
+  font-size: clamp(1rem, 0.7692rem + 1.0256vw, 1.5rem);
 }
 h4 {
   color: var(--gray);
-  /* font-size: 1.125rem; */
-  font-size: clamp(0.75em, calc(400 / 1800 * 100vw), 1.125em);
+  font-size: clamp(0.75rem, 0.5769rem + 0.7692vw, 1.125rem);
 }
 h5 {
   color: var(--gray);
-  /* font-size: 0.875rem; */
-  font-size: clamp(0.6em, calc(400 / 1800 * 100vw), 0.875em);
+  font-size: clamp(0.6rem, 0.4731rem + 0.5641vw, 0.875rem);
 }
 p {
   color: var(--black);
-  /* font-size: 1.5rem; */
-  font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em);
+  font-size: clamp(1rem, 0.7692rem + 1.0256vw, 1.5rem);
 }
-/* @media (max-size: 10000px) {
-  a { font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em); }
-  h1 { font-size: clamp(2.2em, calc(400 / 1800 * 100vw), 3.375em); }
-  h2 { font-size: clamp(1.3em, calc(400 / 1800 * 100vw), 2em); }
-  h3 { font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em); }
-  h4 { font-size: clamp(0.75em, calc(400 / 1800 * 100vw), 1.125em); }
-  h5 { font-size: clamp(0.6em, calc(400 / 1800 * 100vw), 0.875em); }
-  p { font-size: clamp(1em, calc(400 / 1800 * 100vw), 1.5em); }
-} */
-
 .bold {
   font-weight: 700;
 }
@@ -91,6 +74,10 @@ p {
 }
 .italic {
   font-style: italic;
+}
+.small-body {
+  font-size: clamp(0.9rem, 0.6808rem + 0.9744vw, 1.375rem);
+  font-weight: 400;
 }
 .arrow-link {
   display: inline-block;
