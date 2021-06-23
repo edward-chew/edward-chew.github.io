@@ -2,6 +2,9 @@
   Global 
 */
 
+html { 
+  font-size: 16px; 
+}
 * {
   margin: 0;
   padding: 0;
@@ -15,10 +18,11 @@
   --dgray: #696969;
   --gray: #969696;
   --red: #FF4848;
+  --shadow: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.12));
+  --text-mult: 1;
 }
 body {
   overflow-x: hidden;
-  font-weight: 500;
 }
 #content-wrapper {
   width: 1140px;
@@ -36,53 +40,61 @@ body {
     margin: auto 5%; 
   }
 }
-a {
+a, h1, h2, h3, h4, h5, p {
+  font-weight: 500;
   color: var(--black);
-  font-size: clamp(1rem, 0.7692rem + 1.0256vw, 1.5rem);
+}
+a {
+  font-size: calc(1.5rem * var(--text-mult));
   text-decoration: none;
 }
 h1 {
-  color: var(--black);
-  font-size: clamp(2.2rem, 1.6577rem + 2.4103vw, 3.375rem);
+  font-size: calc(3.375rem * var(--text-mult));
   font-weight: 600;
 }
 h2 {
-  color: var(--black);
-  font-size: clamp(1.3rem, 0.9769rem + 1.4359vw, 2rem);
+  font-size: calc(2rem * var(--text-mult));
 }
 h3 {
-  color: var(--gray);
-  font-size: clamp(1rem, 0.7692rem + 1.0256vw, 1.5rem);
+  font-size: calc(1.5rem * var(--text-mult));
 }
 h4 {
-  color: var(--gray);
-  font-size: clamp(0.75rem, 0.5769rem + 0.7692vw, 1.125rem);
+  font-size: calc(1.125rem * var(--text-mult));
 }
 h5 {
-  color: var(--gray);
-  font-size: clamp(0.6rem, 0.4731rem + 0.5641vw, 0.875rem);
+  font-size: calc(0.875rem * var(--text-mult));
 }
 p {
-  color: var(--black);
-  font-size: clamp(1rem, 0.7692rem + 1.0256vw, 1.5rem);
-}
-.bold {
-  font-weight: 700;
-}
-.demi {
-  font-weight: 600;
-}
-.italic {
-  font-style: italic;
+  font-size: calc(1.5rem * var(--text-mult));
 }
 .small-body {
-  font-size: clamp(0.9rem, 0.6808rem + 0.9744vw, 1.375rem);
+  font-size: calc(1.375rem * var(--text-mult));
   font-weight: 400;
 }
+.bold {
+  font-weight: 700 !important;
+}
+.demi {
+  font-weight: 600 !important;
+}
+.medium {
+  font-weight: 500 !important;
+}
+.regular {
+  font-weight: 400 !important;
+}
+.italic {
+  font-style: italic !important;
+}
+
+.shadow {
+  filter: var(--shadow);
+}
+
 .arrow-link {
   display: inline-block;
   height: 20px;
-  width: auto;
+  width: auto !important;
   margin-left: 10px;
 }
 .link {

@@ -1,0 +1,144 @@
+#japa-wrapper .main-title {
+  margin-top: 180px;
+}
+#japa-wrapper h1 {
+  margin-bottom: -2rem;
+}
+#japa-wrapper h2 {
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+#japa-wrapper ol {
+  padding-left: 4rem;
+}
+.caption {
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+  text-align: left;
+  color: var(--gray);
+}
+.large-caption {
+  margin-top: 1.5rem;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, p {
+  width: 100%;
+}
+
+#japa-wrapper img {
+  width: 100%;
+}
+#japa-wrapper .bg-img {
+  width: 150%;
+  height: 800px;
+  margin: 8rem 0;
+  object-fit: cover;
+  /* Center image */
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.heading-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.heading-container h1 {
+  flex: 0 1;
+  white-space: nowrap;
+  padding-right: 2rem;
+}
+.heading-container .orange-line {
+  width: 100%;
+  margin-bottom: -4rem;
+  border-top: 4px solid #F5A623;
+}
+
+.narrow-text-container {
+  max-width: 720px;
+  margin: 6rem 0;
+}
+
+#intro {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+#intro p {
+  margin-bottom: 2rem;
+}
+.japa-link {
+  font-size: calc(1.375rem * var(--text-mult));
+}
+
+#research-ideation, #design-prototype, #final-prototype, #takeaways, .center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.old-screens {
+  max-width: 60rem;
+}
+
+.icon-container {
+  width: 58rem;
+  max-height: 20rem;
+}
+.icon-container .left {
+  border-right: solid 1px var(--gray);
+}
+#japa-wrapper .icon-container .subtitle {
+  text-align: left;
+}
+.inner-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-container img {
+  height: 100%;
+  width: auto !important;
+}
+#japa-wrapper .subtitle {
+  margin-bottom: 2rem;
+  font-weight: 400 !important;
+  text-align: center;
+}
+
+#final-prototype .first-item {
+  margin-top: 8rem;
+}
+.wide-section {
+  margin: 5rem 0;
+}
+.old-lot {
+  margin-bottom: 4rem;
+}
+.iter1 img {
+  width: 80% !important;
+}
+.iter2 img {
+  width: 90% !important;
+}
+.iter2 img:first-child {
+  margin-bottom: 1.5rem;
+}
+.iter3 {
+  margin-top: 0rem;
+}
+.iter3 img {
+  width: 100% !important;
+  margin-left: 3rem;
+}
+
+#takeaways .narrow-text-container {
+  margin: 3rem 0;
+}
+#takeaways .first-item {
+  margin-top: 8rem;
+}
+
+#return-home {
+  margin: 5rem 0 10rem 0;
+  display: flex;
+  justify-content: center;
+}
