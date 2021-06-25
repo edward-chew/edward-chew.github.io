@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Edward Chew">
+  <meta name="description" content="Hands Together Write Up">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Hands Togther / Edward Chew" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://edward-chew.github.io/handstogether.html" />
+  <meta property="og:image" content="https://edward-chew.github.io/Images/HandsTogether.png" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="Images/Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Images/Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Images/Favicon/favicon-16x16.png">
+  <link rel="manifest" href="Images/Favicon/site.webmanifest">
+  <link rel="mask-icon" href="Images/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Komma / Edward Chew</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="handstogether.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-left">
+      <a href="index.html"><b class="demi">Edward Chew</b> / Coding and Designing</a>
+    </div>
+    <div class="nav-right">
+      <a href="index.html">WORK</a>
+      <a href="about.html">ABOUT ME</a>
+    </div>
+  </nav>
+
+  <div id="content-wrapper">
+    <div id="hands-together">
+      <div class="title">
+        <img class="logo" src="Images/HandsTogether/Logo.png" alt="Logo">
+        <h1>Hands Together</h1>
+      </div>
+
+      <div id="intro" class="row">
+        <div class="col-md-9">
+          <h2 class="demi">A Center for Children</h2>
+          <p class="small-body">
+            Hands Together is a Santa Ana-based nonprofit working to bring early childhood education accessible to all. Their team was seeking a website refresh, because their former website was visually dated and lacked certain calls to action. Over the course of 16 weeks, our team worked to build up numerous static pages, a shop with payments processed through Stripe, and an administrator dashboard allowing members of the organization to log in and list events and items for sale.
+            <br><br>View the completed site <a class="small-body" href="https://www.handstogether-sa.org/" target="blank_">here</a>.
+            <br>View the full project write up <a class="small-body" href="https://codelabdavis.medium.com/hands-together-winter-spring-21-mentored-project-c1bb2098f4ce" target="blank_">here</a>.
+          </p>
+          <h2 class="demi">My Role</h2>
+          <p class="small-body">
+            I created the frontend of the shop and item pages, which involved pulling items from the database and dynamically displaying the data. I also built a “shopping cart”, which allowed site visitors to add items to their cart and be able to checkout with those items even after leaving the page or site. This also required numerous checks to the database to see what items were available and calculations of total costs.
+            <br><br>As items are listed and sold and as events come and go, the need for images on the website changes. This meant we needed a way to dynamically store images. I set up image hosting with Amazon S3, which allowed us to upload images as items and events were created, and delete them later as needed.
+            <br><br>Overall, this was a really exciting project to work on. This was my first time being involved in a full fledged full stack project, and I learned a lot of new tools and technology.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h2 class="demi">Duration</h2>
+          <p class="small-body">
+            16 Weeks
+            <br>Jan - Jun 2021
+          </p>
+          <h2 class="demi">Team Members</h2>
+          <p class="small-body developers">
+            <span class="demi">Development</span>
+            <br>Edward Chew (Me!)
+            <br>Grisha Bandodkar
+            <br>Guk il Kim 
+            <br>Nicole Lazovsky
+            <br>Abhay Thacker
+            <br>Michelle Tran
+          </p>
+          <p class="small-body">
+            <span class="demi">Design</span>
+            <br>Megan Chueh
+            <br>Sienna Gonzalez
+          </p>
+        </div>
+      </div>
+
+      <div class="shop-demo">
+        <h2 class="demi">Shop Demo</h2>
+        <p class="small-body">
+          Here's a demo of some of the interactions on the shop pages. It was fun working on pages with so many dynamic elements. Images in the gifs are filler images.
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-md-6"><img src="Images/HandsTogether/Shop.gif" alt="Shop page interactions"></div>
+          <div class="col-md-6"><img src="Images/HandsTogether/Item.gif" alt="About page"></div>
+        </div>
+      </div>
+
+      <div id="return-home">
+        <a class="link" href="index.html">Return Home<img class="arrow-link" src="Images/Arrow.svg" alt="arrow"></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

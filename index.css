@@ -1,3 +1,10 @@
+/*
+  Global
+*/
+#content-wrapper h4, #content-wrapper h5 {
+  color: var(--gray);
+}
+
 /* 
   Intro 
 */

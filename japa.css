@@ -1,3 +1,6 @@
+/*
+  Typography
+*/
 #japa-wrapper .main-title {
   margin-top: 180px;
 }
@@ -25,6 +28,9 @@ h1, h2, h3, h4, h5, p {
   width: 100%;
 }
 
+/*
+  Images
+*/
 #japa-wrapper img {
   width: 100%;
 }
@@ -38,6 +44,9 @@ h1, h2, h3, h4, h5, p {
   transform: translateX(-50%);
 }
 
+/*
+  Headings
+*/
 .heading-container {
   width: 100%;
   display: flex;
@@ -59,6 +68,9 @@ h1, h2, h3, h4, h5, p {
   margin: 6rem 0;
 }
 
+/*
+  Intro
+*/
 #intro {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -70,6 +82,9 @@ h1, h2, h3, h4, h5, p {
   font-size: calc(1.375rem * var(--text-mult));
 }
 
+/*
+  Research, Ideation
+*/
 #research-ideation, #design-prototype, #final-prototype, #takeaways, .center-content {
   display: flex;
   flex-direction: column;
@@ -79,6 +94,9 @@ h1, h2, h3, h4, h5, p {
   max-width: 60rem;
 }
 
+/*
+  Design, Prototyping
+*/
 .icon-container {
   width: 58rem;
   max-height: 20rem;
@@ -104,6 +122,9 @@ h1, h2, h3, h4, h5, p {
   text-align: center;
 }
 
+/*
+  Final Prototype
+*/
 #final-prototype .first-item {
   margin-top: 8rem;
 }
@@ -130,15 +151,12 @@ h1, h2, h3, h4, h5, p {
   margin-left: 3rem;
 }
 
+/*
+  Takeaways
+*/
 #takeaways .narrow-text-container {
   margin: 3rem 0;
 }
 #takeaways .first-item {
   margin-top: 8rem;
-}
-
-#return-home {
-  margin: 5rem 0 10rem 0;
-  display: flex;
-  justify-content: center;
 }

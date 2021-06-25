@@ -142,3 +142,12 @@ nav a:hover {
   font-weight: 600;
 }
 
+/*
+  Footer
+*/
+#return-home {
+  margin: 8rem 0 10rem 0;
+  display: flex;
+  justify-content: center;
+}
+
