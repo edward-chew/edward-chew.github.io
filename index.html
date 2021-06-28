@@ -24,125 +24,162 @@
   <title>Edward Chew / Coding and Designing</title>
   
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-  <nav>
-    <div class="nav-left">
-      <a href="index.html"><b class="demi">Edward Chew</b> / Coding and Designing</a>
-    </div>
-    <div class="nav-right">
-      <a href="index.html">WORK</a>
-      <a href="about.html">ABOUT ME</a>
-    </div>
-  </nav>
-
-  <div class="rellax lines1" data-rellax-speed="-3"><img src="Images/Curve1.svg" alt="Background Curve"></div> <!-- Background Lines 1 -->
-  <div class="rellax lines2" data-rellax-speed="-3"><img src="Images/Curve2.svg" alt="Background Curve"></div> <!-- Background Lines 2 -->
-  <div class="rellax lines3" data-rellax-speed="-3"><img src="Images/Curve3.svg" alt="Background Curve"></div> <!-- Background Lines 3 -->
-
-  <div id="content-wrapper">
-    <section class="intro">
-      <div class="row">
-        <div class="left col-md-7">
-          <h1>Hey there!</h1>
-          <h2>I’m Edward, an upcoming third year computer science student and aspiring software engineer.</h2>
-          <p>This website is under construction, and might not show up correctly on all screens.</p>
-          <a class="link" href="about.html">About Me<img class="arrow-link" src="Images/Arrow.svg" alt="arrow"></a>
-        </div>
-        <div class="right col-md-5">
-          <img src="Images/Edward.jpg" alt="Photo of me!">
-        </div>
+  <div id="desktop">
+    <nav>
+      <div class="nav-left">
+        <a href="index.html"><b class="demi">Edward Chew</b> / Coding and Designing</a>
       </div>
-    </section>
-
-    <section class="work">
-      <h1>Here's some of my work:</h1>
-      <a href="japa.html">
-        <div class="row no-gutters">
-          <div class="left col-md-7">
-            <img src="Images/JAPA.png" alt="JAPA Prototype">
-          </div>
-          <div class="right col-md-5">
-            <h4 class="bold">UI/UX DESIGN</h4>
-            <h2 class="demi">Reimagining Parking</h2>
-            <p>Redesigning a smart parking mobile app for JAPA Inc.</p>
-            <h5 class="italic">Figma</h5>
-            <img class="arrow-link" src="Images/Arrow.svg" alt="arrow">
-          </div>
-        </div>
-      </a>
-      <a href="handstogether.html">
-        <div class="row no-gutters">
-          <div class="left col-md-7">
-            <img src="Images/HandsTogether.png" alt="Hands Together logo">
-          </div>
-          <div class="right col-md-5">
-            <h4 class="bold">FULL STACK DEVELOPMENT</h4>
-            <h2 class="demi">Hands Together</h2>
-            <p>Revamped nonprofit's website, including shop and checkout functionality</p>
-            <h5 class="italic">MongoDB, Express, ReactJS, Node.js, Amazon S3</h5>
-            <img class="arrow-link" src="Images/Arrow.svg" alt="arrow">
-          </div>
-        </div>
-      </a>
-      <a href="komma.html">
-        <div class="row no-gutters">
-          <div class="left col-md-7">
-            <img src="Images/Komma.png" alt="Komma Prototype">
-          </div>
-          <div class="right col-md-5">
-            <h4 class="bold">FRONTEND & UI/UX DESIGN</h4>
-            <h2 class="demi">A Hub for Involvement</h2>
-            <p>Wireframed and styled a web platform for event sharing between university communities</p>
-            <h5 class="italic">ReactJS, Figma</h5>
-            <img class="arrow-link" src="Images/Arrow.svg" alt="arrow">
-          </div>
-        </div>
-      </a>
-    </section>
-
-    <section class="mini">
-      <h1>And some doodles and mini projects:</h1>
-      <div class="row">
-        <div class="col-md-6">
-          <a href="">
-            <img src="Images/BobaTierList.png" alt="Boba Tier List">
-            <h4 class="bold">"DATA SCIENCE"</h4>
-            <p class="demi">SF Bay Area Boba Ranking</p>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a href="">
-            <img src="Images/DesignChallenge.png" alt="Roommate App">
-            <h4 class="bold">UI/UX DESIGN</h4>
-            <p class="demi">Dorm Roommate Finding App</p>
-          </a>
-        </div>
-        <div class="w-100"></div>  <!-- breaks rows -->
-        <div class="col-md-6">
-          <a href="">
-            <img src="Images/Geofilters.png" alt="Geofilters">
-            <h4 class="bold">GRAPHIC DESIGN</h4>
-            <p class="demi">Snapchat Geofilters</p>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a href="">
-            <img src="Images/AllergyLabels.png" alt="DC Labels">
-            <h4 class="bold">INFORMATION DESIGN</h4>
-            <p class="demi">UC Davis Dining Commons Label Redesign</p>
-          </a>
-        </div>
+      <div class="nav-right">
+        <a href="index.html">WORK</a>
+        <a href="about.html">ABOUT ME</a>
       </div>
-    </section>
+    </nav>
 
-    <section class="experience">
-      <h1>My experience:</h1>
+    <div id="content-wrapper">
+      <section class="intro">
+        <div class="gradient-box">
+          <div class="row align-items-center">
+            <div class="left col-md-7">
+              <h1 class="bold">Hello there!</h1>
+              <h2>I’m Edward, an upcoming third year computer science student and aspiring software engineer.</h2>
+              <!-- <p>This website is under construction, and might not show up correctly on all screens.</p> -->
+              <a class="link white-link" href="about.html">About Me<img class="arrow-link" src="Images/ArrowWhite.svg" alt="arrow"></a>
+            </div>
+            <div class="right col-md-5">
+              <img src="Images/Edward.jpg" alt="Photo of me!">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <h1>Here's some of my work:</h1>
+        <a href="japa.html">
+          <div class="row no-gutters">
+            <div class="left col-md-7">
+              <img src="Images/JAPA.png" alt="JAPA Prototype">
+            </div>
+            <div class="right col-md-5">
+              <h4 class="bold">UI/UX DESIGN</h4>
+              <h2 class="demi">Reimagining Parking</h2>
+              <p>Redesigning a smart parking mobile app for JAPA Inc.</p>
+              <h5 class="italic">Figma</h5>
+              <img class="arrow-link" src="Images/Arrow.svg" alt="arrow">
+            </div>
+          </div>
+        </a>
+        <a href="handstogether.html">
+          <div class="row no-gutters">
+            <div class="left col-md-7">
+              <img src="Images/HandsTogether.png" alt="Hands Together logo">
+            </div>
+            <div class="right col-md-5">
+              <h4 class="bold">FULL STACK DEVELOPMENT</h4>
+              <h2 class="demi">Hands Together</h2>
+              <p>Revamped nonprofit's website, including shop and checkout functionality</p>
+              <h5 class="italic">MongoDB, Express, ReactJS, Node.js, Amazon S3</h5>
+              <img class="arrow-link" src="Images/Arrow.svg" alt="arrow">
+            </div>
+          </div>
+        </a>
+        <a href="komma.html">
+          <div class="row no-gutters">
+            <div class="left col-md-7">
+              <img src="Images/Komma.png" alt="Komma Prototype">
+            </div>
+            <div class="right col-md-5">
+              <h4 class="bold">FRONTEND & UI/UX DESIGN</h4>
+              <h2 class="demi">A Hub for Involvement</h2>
+              <p>Wireframed and styled a web platform for event sharing between university communities</p>
+              <h5 class="italic">ReactJS, Figma</h5>
+              <img class="arrow-link" src="Images/Arrow.svg" alt="arrow">
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <section class="mini">
+        <h1>And some doodles and mini projects:</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="">
+              <img src="Images/BobaTierList.png" alt="Boba Tier List">
+              <h4 class="bold">"DATA SCIENCE"</h4>
+              <p class="demi">SF Bay Area Boba Ranking</p>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="">
+              <img src="Images/DesignChallenge.png" alt="Roommate App">
+              <h4 class="bold">UI/UX DESIGN</h4>
+              <p class="demi">Dorm Roommate Finding App</p>
+            </a>
+          </div>
+          <div class="w-100"></div>  <!-- breaks rows -->
+          <div class="col-md-6">
+            <a href="">
+              <img src="Images/Geofilters.png" alt="Geofilters">
+              <h4 class="bold">GRAPHIC DESIGN</h4>
+              <p class="demi">Snapchat Geofilters</p>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="">
+              <img src="Images/AllergyLabels.png" alt="DC Labels">
+              <h4 class="bold">INFORMATION DESIGN</h4>
+              <p class="demi">UC Davis Dining Commons Label Redesign</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience">
+        <h1>My experience:</h1>
+        <p class="position"><b class="demi">CodeLab</b> / VP of External, Developer</p>
+        <p class="years">Oct 2020 - Present</p>
+        <p class="position"><b class="demi">Komma</b> / Software Developer</p>
+        <p class="years">Sep 2020 - Present</p>
+        <p class="position"><b class="demi">Computational Communication Lab at UC Davis</b> / Research Assistant</p>
+        <p class="years">Mar 2020 - Present</p>
+        <p class="position"><b class="demi">Design Interactive</b> / Design Associate</p>
+        <p class="years">Apr 2020 - May 2020</p>
+        <a class="link" href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing" target="_blank">View Full Resume<img class="arrow-link" src="Images/Arrow.svg" alt="arrow"></a>
+      </section>
+
+      <footer>
+        <div class="gradient-box">
+          <h1>Let's chat!</h1>
+          <p>Feel free to shoot me a message to get in touch!<br><br>
+            edwardchew8@gmail.com<br>
+            linkedin.com/in/edwardchew8
+          </p>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!--Mobile page-->
+  <div id="mobile">
+    <div class="gradient-box">
+      <h3><b class="demi">Edward Chew</b> / Coding and Designing</h3>
+    </div>
+
+    <div class="m-intro">
+      <img src="Images/Edward.jpg" alt="Photo of me!">
+      <h1>Hello there!</h1>
+      <h2>I’m Edward, an upcoming third year computer science student and aspiring software engineer.</h2>
+      <p class="for-desktop">This site was imagined for desktop view. Check it out on desktop to view the full content, including all of my projects!</p>
+    </div>
+
+    <div class="m-experience">
+      <h2>Experience and Involvement</h2>        
       <p class="position"><b class="demi">CodeLab</b> / VP of External, Developer</p>
       <p class="years">Oct 2020 - Present</p>
       <p class="position"><b class="demi">Komma</b> / Software Developer</p>
@@ -152,25 +189,21 @@
       <p class="position"><b class="demi">Design Interactive</b> / Design Associate</p>
       <p class="years">Apr 2020 - May 2020</p>
       <a class="link" href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing" target="_blank">View Full Resume<img class="arrow-link" src="Images/Arrow.svg" alt="arrow"></a>
-    </section>
+    </div>
 
-    <footer>
-      <h1>Let's chat!</h1>
-      <p>Feel free to shoot me a message to get in touch!<br><br>
-        edwardchew8@gmail.com<br>
-        linkedin.com/in/edwardchew8</p>
-    </footer>
+    <div class="m-footer">
+      <div class="gradient-box">
+        <h2>Let's chat!</h2>
+        <p class="in-touch">
+          Feel free to shoot me a message to get in touch!
+        </p>
+        <p>
+          edwardchew8@gmail.com
+          <br>linkedin.com/in/edwardchew8
+        </p>
+      </div>
+    </div>
   </div>
-
-  <!-- Rellax for parallax effect -->
-  <script src="Javascript/rellax.min.js"></script>
-  <script>
-    window.onload = function(){
-      var rellax = new Rellax('.rellax', {
-        center: true
-      });
-    }
-  </script>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
