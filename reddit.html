@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Edward Chew">
+  <meta name="description" content="Reddit Scraper Project">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Reddit Scraper / Edward Chew" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://edward-chew.github.io/reddit.html" />
+  <meta property="og:image" content="https://edward-chew.github.io/Images/RedditScraper.png" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="Images/Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Images/Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Images/Favicon/favicon-16x16.png">
+  <link rel="manifest" href="Images/Favicon/site.webmanifest">
+  <link rel="mask-icon" href="Images/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Reddit Scraper / Edward Chew</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/reddit.css">
+</head>
+
+<body>
+  <div id="desktop">
+    <nav>
+      <div class="nav-left">
+        <a href="index.html"><b class="demi">Edward Chew</b> / Coding and Designing</a>
+      </div>
+      <div class="nav-right">
+        <a href="index.html">WORK</a>
+        <a href="about.html">ABOUT ME</a>
+      </div>
+    </nav>
+
+    <div id="content-wrapper">
+      <div id="reddit-wrapper">
+        <img class="logo" src="Images/Reddit/Logo.png" alt="Logo">
+        <h1>Reddit Subreddit Metadata Scraper</h1>
+        <p class="small-body">
+          In my work in the Computational Communication Lab at UC Davis, a significant source of data for study comes from Reddit. In this project, I wrote a script to gather as much data from Reddit subreddits as possible. This included, but was not limited to, subreddit rules, images, butttons, links, descriptions, and wiki pages. The script was written in Python and data was scraped with PRAW.
+          <br><br>Much of the difficulty with the project came from the length of the runtime of the program. In order to reduce the runtime, I needed to continually find ways to reduce API calls, which are throttled to about 30 per minute by Reddit. I also configured the script to run with Supervisord, a process control system, in order to run the script uninterrupted for the many months it may take. To address the possibility of interruption or error, the script was also configured to send regular update emails and emails on fail. More than anything, this project was an opportunity to develop my shell skills.
+          <br><br>Below is a sample of just a single subreddit worth of data! In total, 2.8 million subreddits of data was gathered.
+        </p>
+        <img class="code-snippet" src="Images/Reddit/JSON.png" alt="Metadata code sample">
+
+        <div id="return-home">
+          <a class="link" href="index.html">Return Home<img class="arrow-link" src="Images/Arrow.svg" alt="arrow"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!--Mobile page-->
+  <div id="mobile">
+    <div class="gradient-box">
+      <h3><b class="demi">Edward Chew</b> / Coding and Designing</h3>
+    </div>
+
+    <div class="m-intro">
+      <img src="Images/Edward.jpg" alt="Photo of me!">
+      <h1>Hello there!</h1>
+      <h2>I’m Edward, an upcoming third year computer science student and aspiring software engineer.</h2>
+      <p class="for-desktop">This site was imagined for desktop view. Check it out on desktop to view the full content, including all of my projects!</p>
+    </div>
+
+    <div class="m-experience">
+      <h2>Experience and Involvement</h2>        
+      <p class="position"><b class="demi">CodeLab</b> / VP of External, Developer</p>
+      <p class="years">Oct 2020 - Present</p>
+      <p class="position"><b class="demi">Komma</b> / Software Developer</p>
+      <p class="years">Sep 2020 - Present</p>
+      <p class="position"><b class="demi">Computational Communication Lab at UC Davis</b> / Research Assistant</p>
+      <p class="years">Mar 2020 - Present</p>
+      <p class="position"><b class="demi">Design Interactive</b> / Design Associate</p>
+      <p class="years">Apr 2020 - May 2020</p>
+      <a class="link" href="https://drive.google.com/file/d/1nTexryaBg258VKtiM36aMotkwGOm-t99/view?usp=sharing" target="_blank">View Full Resume<img class="arrow-link" src="Images/Arrow.svg" alt="arrow"></a>
+    </div>
+
+    <div class="m-footer">
+      <div class="gradient-box">
+        <h2>Let's chat!</h2>
+        <p class="in-touch">
+          Feel free to shoot me a message to get in touch!
+        </p>
+        <p>
+          edwardchew8@gmail.com
+          <br>linkedin.com/in/edwardchew8
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

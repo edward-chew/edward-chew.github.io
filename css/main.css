@@ -166,7 +166,7 @@ nav a:hover {
 #desktop {
   display: block;
 }
-@media(max-width: 700px) {
+@media(max-width: 768px) {
   #mobile {
     display: block;
   }
