@@ -134,6 +134,7 @@
 .other-work .description {
   color: var(--black) !important;
   margin-top: 0;
+  line-height: 1.6;
 }
 .other-work a:hover {
   text-decoration: none;
@@ -158,11 +159,11 @@
   border-radius: 20px;
   transition: all 0.5s;
 }
-.mini a:hover {
-  cursor: default;
+.mini a {
+  pointer-events: none;
 }
-.mini .enabled a:hover {
-  cursor: pointer;
+.mini .enabled a {
+  pointer-events: auto;
 }
 /* Animate images on hover */
 .mini .enabled img:hover { 
