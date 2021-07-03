@@ -181,7 +181,7 @@ nav a:hover {
 #mobile {
   width: 90%;
   max-width: 500px;
-  margin: 4rem auto;
+  margin: 1.5rem auto;
 }
 #mobile h1, #mobile h2, #mobile h3, #mobile p {
   margin-bottom: 0;
@@ -255,6 +255,10 @@ nav a:hover {
 }
 #mobile .m-footer h2 {
   margin-bottom: 0.5rem;
+  color: var(--white);
+}
+#mobile .m-footer p {
+  color: var(--white);
 }
 #mobile .m-footer .in-touch {
   margin-bottom: 0.75rem;
