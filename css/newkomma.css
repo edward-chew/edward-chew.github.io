@@ -1,0 +1,45 @@
+/*
+  Images
+*/
+#new-komma img {
+  width: 100%;
+  /* filter: drop-shadow(1px 1px 7px rgba(0, 0, 0, 0.08)); */
+}
+
+/*
+  Intro
+*/
+#new-komma .title .logo {
+  width: 70px;
+  margin: 180px 0 30px 0;
+}
+#new-komma .title h1 {
+  margin-bottom: 50px;
+}
+
+#new-komma #intro p {
+  margin-bottom: 3rem;
+}
+#new-komma #intro img {
+  margin-bottom: 2rem;
+}
+#new-komma h2 {
+  margin-bottom: 1rem;
+}
+#new-komma a {
+  text-decoration: underline;
+}
+
+#new-komma .section {
+  margin-bottom: 4rem;
+}
+#new-komma .section p {
+  margin-bottom: 3rem;
+}
+
+/*
+  Wireframes
+*/
+#new-komma .wireframes img {
+  margin-bottom: 2rem;
+}
