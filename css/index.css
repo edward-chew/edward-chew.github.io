@@ -23,6 +23,7 @@
 }
 .intro .gradient-box {
   background: linear-gradient(101.45deg, #EF7D64 12.82%, #FFB777 56.44%, #FFBD77 89.15%, #FFD978 103.84%);
+  width: 200%;
 }
 .intro .left {
   padding-right: 50px;
