@@ -69,6 +69,14 @@ h1, h2, h3, h4, h5, p {
 }
 
 /*
+  Title
+*/
+#japa-wrapper .title h5 {
+  margin-top: 2.5rem;
+  color: var(--gray);
+}
+
+/*
   Intro
 */
 #intro {

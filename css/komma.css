@@ -10,7 +10,8 @@
   width: 50px;
   margin: 180px 0 30px 0;
 }
-.images h1 {
+.images h5 {
+  color: var(--gray);
   margin-bottom: 50px;
 }
 .images p {
