@@ -29,6 +29,12 @@
 #codelab a {
   text-decoration: underline;
 }
+#codelab .caption {
+  margin-bottom: 1.6rem;
+  margin-top: 1rem;
+  text-align: left;
+  color: var(--gray);
+}
 
 #codelab .section {
   margin-bottom: 4rem;
