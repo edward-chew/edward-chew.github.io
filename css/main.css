@@ -254,6 +254,9 @@ nav a:hover {
 #mobile .m-footer p {
   color: var(--white);
 }
+#mobile .m-footer a {
+  color: var(--white);
+}
 #mobile .m-footer .in-touch {
   margin-bottom: 0.75rem;
 }
