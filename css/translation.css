@@ -1,0 +1,16 @@
+/*
+  How We Did It
+*/
+#translation .how img {
+  padding: 0 2rem;
+}
+
+/*
+  What We Found
+*/
+#translation .found .row {
+  padding: 0 12rem;
+}
+#translation .found .fig3 {
+  padding: 0 6rem;
+}

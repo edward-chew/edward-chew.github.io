@@ -1,15 +1,6 @@
-#reddit-wrapper .code-snippet {
-  width: 100%;
+#reddit .logo {
+  width: 100px;
 }
-#reddit-wrapper .logo {
-  height: 8rem;
-  width: 8rem;
-  margin: 11rem 0 1rem 0;
-}
-#reddit-wrapper h5 {
-  color: var(--gray);
-  margin-bottom: 50px;
-}
-#reddit-wrapper p {
-  margin-bottom: 5rem;
+#reddit p {
+  margin-top: 3rem;
 }

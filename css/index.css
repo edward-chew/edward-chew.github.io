@@ -12,6 +12,9 @@
 .gradient-box h1, .gradient-box h2, .gradient-box p, .gradient-box a {
   color: var(--white);
 }
+a {
+  font-size: calc(1.5rem * var(--text-mult));
+}
 
 /* 
   Intro 

@@ -40,6 +40,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/projectpage.css">
   <link rel="stylesheet" href="css/reddit.css">
 </head>
 
@@ -56,18 +57,23 @@
     </nav>
 
     <div id="content-wrapper">
-      <div id="reddit-wrapper">
-        <img class="logo" src="Images/Reddit/Logo.png" alt="Logo">
-        <h1>Reddit Subreddit Metadata Scraper</h1>
-        <h5 class="italic">Updated 12.13.2021</h5>
-        <p class="small-body">
-          In my work in the Computational Communication Lab at UC Davis, a significant source of data for study comes from Reddit. In this project, I wrote a script to gather as much data from Reddit subreddits as possible. This included, but was not limited to, subreddit rules, images, butttons, links, descriptions, and wiki pages. The script was written in Python and data was scraped with PRAW.
-          <br><br>Much of the difficulty with the project came from the length of the runtime of the program. In order to reduce the runtime, I needed to continually find ways to reduce API calls, which are throttled to about 30 per minute by Reddit. I also configured the script to run with Supervisord, a process control system, in order to run the script uninterrupted for the many months it may take. To address the possibility of interruption or error, the script was also configured to send regular update emails and emails on fail. More than anything, this project was an opportunity to develop my shell skills.
-          <br><br>Below is a sample of just a single subreddit worth of data! In total, 2.8 million subreddits of data was gathered over a 6 month run.
-        </p>
-        <img class="code-snippet" src="Images/Reddit/JSON.svg" alt="Metadata code sample">
+      <div id="reddit" class="project-page">
+        <div class="title">
+          <img class="logo" src="Images/Reddit/Logo.png" alt="Logo">
+          <h1>Reddit Subreddit Metadata Scraper</h1>
+          <h5 class="italic">Updated 12.13.2021</h5>
+        </div>
+        
+        <section>
+          <p class="small-body">
+            In my work in the Computational Communication Lab at UC Davis, a significant source of data for study comes from Reddit. In this project, I wrote a script to gather as much data from Reddit subreddits as possible. This included, but was not limited to, subreddit rules, images, butttons, links, descriptions, and wiki pages. The script was written in Python and data was scraped with PRAW.
+            <br><br>Much of the difficulty with the project came from the length of the runtime of the program. In order to reduce the runtime, I needed to continually find ways to reduce API calls, which are throttled to about 30 per minute by Reddit. I also configured the script to run with Supervisord, a process control system, in order to run the script uninterrupted for the many months it may take. To address the possibility of interruption or error, the script was also configured to send regular update emails and emails on fail. More than anything, this project was an opportunity to develop my shell skills.
+            <br><br>Below is a sample of just a single subreddit worth of data! In total, 2.8 million subreddits of data was gathered over a 6 month run.
+          </p>
+          <img class="code-snippet" src="Images/Reddit/JSON.svg" alt="Metadata code sample">
+        </section>
 
-        <div id="return-home">
+        <div class="return-home">
           <a class="link" href="/">Return Home<img class="arrow-link" src="Images/Arrow.svg" alt="arrow"></a>
         </div>
       </div>
