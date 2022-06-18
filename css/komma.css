@@ -1,25 +1,16 @@
 /*
   Images
 */
-.images img {
-  width: 100%;
+#komma .images img {
   filter: drop-shadow(1px 1px 7px rgba(0, 0, 0, 0.08));
 }
-.images .logo {
-  height: 50px;
-  width: 50px;
-  margin: 180px 0 30px 0;
+
+/*
+  Body Text
+*/
+#komma .images p {
+  margin-top: 3rem;
 }
-.images h5 {
-  color: var(--gray);
-  margin-bottom: 50px;
-}
-.images p {
-  margin-bottom: 120px;
-}
-.images h2 {
-  margin-bottom: 50px;
-}
-.images .row {
-  margin-bottom: 100px;
+#komma .images h2 {
+  margin-top: 4rem;
 }

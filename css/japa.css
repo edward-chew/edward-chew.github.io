@@ -168,3 +168,13 @@ h1, h2, h3, h4, h5, p {
 #takeaways .first-item {
   margin-top: 8rem;
 }
+
+/*
+  Return Home
+*/
+.return-home {
+  font-size: calc(1.5rem * var(--text-mult));
+  margin: 8rem 0 10rem 0;
+  display: flex;
+  justify-content: center;
+}
