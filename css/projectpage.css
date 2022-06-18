@@ -9,13 +9,14 @@
   Intro
 */
 .project-page .title {
-  margin-top: 180px;
+  margin-top: 11rem;
 }
 .project-page .title .logo {
   width: 70px;
   margin-bottom: 2rem;
 }
 .project-page .title h5 {
+  margin-top: 0.5rem;
   color: var(--gray);
 }
 

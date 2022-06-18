@@ -45,6 +45,7 @@ a {
 .intro .right {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .intro .right img {
   width: 100%;
@@ -91,6 +92,7 @@ a {
 }
 .work .right p {
   margin-top: 10px;
+  margin-bottom: 1rem;
 }
 .work .right .arrow-link {
   position: absolute;
@@ -130,14 +132,14 @@ a {
   margin-bottom: 50px;
 }
 .other-work h4 {
-  padding-top: 2rem;
+  margin-top: 2rem;
 }
 .other-work p {
-  margin-bottom: 0.5rem !important;
+  margin: 0.5rem 0;
 }
 .other-work .description {
   color: var(--black) !important;
-  padding-top: 0;
+  margin-top: 0;
   line-height: 1.6;
 }
 .other-work a:hover {
@@ -178,7 +180,10 @@ a {
   margin-bottom: 50px;
 }
 .mini h4 {
-  padding-top: 2rem;
+  margin-top: 2rem;
+}
+.mini p {
+  margin-top: 0.5rem;
 }
 .mini a:hover {
   text-decoration: none;
@@ -203,8 +208,8 @@ a {
 .experience .years {
   color: var(--gray);
   font-style: italic;
-  margin-top: -10px;
-  margin-bottom: 30px;
+  margin-top: 0.25rem;
+  margin-bottom: 2rem;
 }
 
 /*
