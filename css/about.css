@@ -1,4 +1,11 @@
 /*
+  Global
+*/
+a {
+  font-size: calc(1.5rem * var(--text-mult));
+}
+
+/*
   Summary
 */
 .summary {
@@ -110,7 +117,7 @@ footer h1 {
   top: 850px;
 }
 .lines2 {
-  top: 2300px;
+  top: 2600px;
 }
 @media (max-width: 720px) {
   .rellax {
