@@ -6,6 +6,16 @@
 }
 
 /*
+  Global
+*/
+a:hover {
+  opacity: 0.6;
+  color: var(--black);
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+/*
   Intro
 */
 .project-page .title {
