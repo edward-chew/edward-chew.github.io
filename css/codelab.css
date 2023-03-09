@@ -2,40 +2,17 @@
   Images
 */
 #codelab img {
-  filter: drop-shadow(1px 1px 7px rgba(0, 0, 0, 0.08));
-}
-
-/*
-  Intro
-*/
-.project-page .title .logo {
-  width: 3rem;
-}
-#codelab .caption {
-  margin-top: 1rem;
-  text-align: left;
-  color: var(--gray);
-}
-
-/*
-  Logo
-*/
-#codelab .logo-row {
-  margin: 4rem 0;
-}
-#codelab .full-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#codelab .full-logo img {
-  width: 70%;
-}
-#codelab .icon-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#codelab .icon-logo img {
-  width: 20%;
-}
+    filter: drop-shadow(1px 1px 7px rgba(0, 0, 0, 0.08));
+  }
+  
+  /*
+    Intro
+  */
+  .project-page .title .logo {
+    width: 3rem;
+  }
+  #codelab .caption {
+    margin-top: 1rem;
+    text-align: left;
+    color: var(--gray);
+  }
