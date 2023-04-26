@@ -49,26 +49,26 @@ a, h1, h2, h3, h4, h5, p {
 a {
   text-decoration: none;
 }
-h1 {
+h1 {  /* 54 */
   font-size: calc(3.375rem * var(--text-mult));
   font-weight: 600;
 }
-h2 {
+h2 {  /* 32 */
   font-size: calc(2rem * var(--text-mult));
 }
-h3 {
+h3 {  /* 24 */
   font-size: calc(1.5rem * var(--text-mult));
 }
-h4 {
+h4 {  /* 18 */
   font-size: calc(1.125rem * var(--text-mult));
 }
-h5 {
+h5 {  /* 14 */
   font-size: calc(0.875rem * var(--text-mult));
 }
-p {
+p {   /* 24 */
   font-size: calc(1.5rem * var(--text-mult));
 }
-.small-body {
+.small-body {  /* 22 */
   font-size: calc(1.375rem * var(--text-mult));
   font-weight: 400;
 }

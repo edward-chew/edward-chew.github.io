@@ -4,6 +4,9 @@
 #content-wrapper h4, #content-wrapper h5 {
   color: var(--gray);
 }
+a {
+  font-size: calc(1.5rem * var(--text-mult));
+}
 .gradient-box {
   border-radius: 10px;
   margin: 0 -3.5rem;
@@ -11,9 +14,6 @@
 }
 .gradient-box h1, .gradient-box h2, .gradient-box p, .gradient-box a {
   color: var(--white);
-}
-a {
-  font-size: calc(1.5rem * var(--text-mult));
 }
 
 /* 
@@ -34,13 +34,14 @@ a {
 .intro h2 {
   font-size: 1.75rem;
   line-height: 1.4;
-  margin: 30px 0px;
+  margin-top: 2rem;
 }
 .intro h1 {
   font-size: 4rem;
 }
-.intro p {
-  font-size: 1rem;
+.intro a {
+  margin-top: 1rem;
+  display: block;
 }
 .intro .right {
   display: flex;
